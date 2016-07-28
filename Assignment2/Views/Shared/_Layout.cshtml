@@ -11,7 +11,7 @@
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
    
-    <section class="navbar navbar-fixed-top custom-navbar" role="navigation">
+    <section class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -35,7 +35,7 @@
 
         @RenderBody()
         <hr />
-        <footer>
+        @*<footer>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
@@ -51,7 +51,23 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer>*@
+        <!-- Footer -->
+        <div class="navbar-bottom">
+            <div class="nav nav-justified" style="background-color: #000000">
+                <div class="navbar-text pull-left">
+                    <p style="color: #ffffff">Copyright by Mayank Raval © 2016</p>
+                </div>
+
+                <div class="navbar-text pull-right">
+                    <a href="https://github.com/mayankraval" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+                    <a href="https://in.linkedin.com/in/mayankraval" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    <a href="https://instagram.com/mayank.raval/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+                    <a href="https://twitter.com/Mayank_Raval" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    <a href="https://www.facebook.com/mayank.raval" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
