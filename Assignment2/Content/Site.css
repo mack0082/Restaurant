@@ -373,10 +373,13 @@ about section
 contact section
 ========================================================================== */
 #contact {
-  background: #3B3B3B url(http://littleindiacuisine.ca/wp-content/uploads/2015/04/butter-chken-2000x7961.png) no-repeat center center;
+  background: #3B3B3B url(https://format-com-cld-res.cloudinary.com/image/private/s--iQJa79jP--/c_limit,g_center,h_1200,w_65535/a_auto,fl_keep_iptc.progressive,q_95/226561-12139580-Korean_BBQ_Tofu_Bowls_for_Oh_My_Veggies_emilycarusophotography_com_1_of_1_jpg.jpg
+) no-repeat center center;
   background-size: cover;
   margin-top:50px;
   color: #000000;
+  font-size: 25px;
+  font-weight: bold;
 }
 #contact h2 {
   padding-bottom: 20px;
